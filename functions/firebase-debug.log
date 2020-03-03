@@ -1,0 +1,19 @@
+[debug] [2020-03-03T23:11:33.428Z] ----------------------------------------------------------------------
+[debug] [2020-03-03T23:11:33.432Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nogue\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2020-03-03T23:11:33.433Z] CLI Version:   7.14.0
+[debug] [2020-03-03T23:11:33.433Z] Platform:      win32
+[debug] [2020-03-03T23:11:33.433Z] Node Version:  v10.16.1
+[debug] [2020-03-03T23:11:33.435Z] Time:          Tue Mar 03 2020 20:11:33 GMT-0300 (GMT-03:00)
+[debug] [2020-03-03T23:11:33.435Z] ----------------------------------------------------------------------
+[debug] [2020-03-03T23:11:33.435Z] 
+[debug] [2020-03-03T23:11:33.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-03T23:11:33.449Z] > authorizing via signed-in user
+[debug] [2020-03-03T23:11:33.450Z] [iam] checking project quickstart-1559928541926 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2020-03-03T23:11:33.453Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/quickstart-1559928541926:testIamPermissions  
+
+[debug] [2020-03-03T23:11:34.431Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'quickstart-1559928541926'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint

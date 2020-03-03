@@ -30,6 +30,7 @@ const init = baseURL => {
     const [data, dispatch] = useReducer(reducer, initial_State);
 
     const carregar = async () => {
+      console.log(baseURL + resource);
       dispatch({ type: "REQUEST" });
       const res = await axios.get(baseURL + resource + ".json");
       dispatch({ type: "SUCCESS", data: res.data });
